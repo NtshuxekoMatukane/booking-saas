@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "migrate": "tsx src/db/migrate.ts"
+    "migrate": "tsx src/db/migrate.ts",
+    "build": "tsc",
+    "test:availability": "tsx src/db/tests/availability.integration.ts"
   },
   "keywords": [],
   "author": "",
